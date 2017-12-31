@@ -1,18 +1,14 @@
-I spent about 10 hours implementing this. I had never used python before this project.  
-I used the Click python library to implement my CLI.  
-I used code from here for a method to print to stderr: https://stackoverflow.com/questions/5574702/how-to-print-to-stderr-in-python  
-I used code from here for a method of checking ip addresses: https://stackoverflow.com/questions/319279/how-to-validate-ip-address-in-python   
+This is just a project I made for my cloud computing class in school.  It is a python based command line program that acts as a tool that could be used to manage servers and vms in a distributed cloud computing system.  Note that this program just "pretends" to be setting up hardware and virtual machines and so forth, it doesn't actually do it.  Although, that functionality could be dropped into this CLI.
 
+There is plenty of work that would need to be done to this before it became actually useful for anything.
 
-To set up the program:  
+Instructions to run:
+
 1. Clone or unzip the repository
-2. Change your directory to the repository root
+2. Change your directory to the P4 subdirectory of the repository
 3. Run: "source env/bin/activate"
+4. Run: "pip install click"
+5. Run: “chmod +x aggiestack.py” (If in a bash shell)
+6. Run: “export PATH=$PATH:.”
 
-Now you can run the program. An example of running one of the commands from the project description:  
-"python aggiestack.py config --hardware examples/hdwr-config.txt"
-
-Or if you are running in a bash shell you can change the aggiestack.py file to be executable with:  
-"chmod +x aggiestack.py"  
-This will allow you to forego the "python" at the beginning of the command:
-"./aggiestack.py config --hardware examples/hdwr-config.txt"
+This should now allow you run the program by typing “aggiestack.py” followed by any commands and options.

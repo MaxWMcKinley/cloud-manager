@@ -1,0 +1,225 @@
+aggiestack.py server create 
+aggiestack.py server list 
+aggiestack.py server delete list 
+aggiestack.py server huh 
+aggiestack.py server 
+aggiestack.py server 
+aggiestack.py server 
+aggiestack.py server 
+aggiestack.py server 
+aggiestack.py server create --image image --flavor flavor name 
+aggiestack.py config --hardware examples/hdwr-config.txt 
+SUCCESS
+aggiestack.py server create --image image --flavor flavor name 
+aggiestack.py config --flavors examples/flavor-config.txt 
+SUCCESS
+aggiestack.py server create --image linux-ubuntu --flavor small test 
+aggiestack.py server create --image linux-ubuntu --flavor xlarge test 
+aggiestack.py server create --image linux-ubuntu --flavor medium test 
+aggiestack.py server create --image linux-ubuntu --flavor small test 
+aggiestack.py server create --image linux-ubuntu --flavor medium test 
+aggiestack.py server create --image linux-ubuntu --flavor medium test 
+aggiestack.py server create --image linux-ubuntu --flavor medium test 
+aggiestack.py server create --image linux-ubuntu --flavor medium test 
+aggiestack.py server create --image linux-ubuntu --flavor medium test 
+aggiestack.py server create --image linux-ubuntu --flavor medium test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor xlarge test 
+aggiestack.py server create --image linux-ubuntu --flavor xlarge test 
+aggiestack.py show hardware 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py admin can_host m1 large 
+SUCCESS
+aggiestack.py admin can_host m1 large 
+SUCCESS
+aggiestack.py admin can_host m1 large 
+SUCCESS
+aggiestack.py admin can_host m1 large 
+SUCCESS
+aggiestack.py admin can_host m1 large 
+SUCCESS
+aggiestack.py admin can_host m1 large 
+SUCCESS
+aggiestack.py admin can_host m1 large 
+SUCCESS
+aggiestack.py admin can_host m1 large 
+SUCCESS
+aggiestack.py admin can_host m2 large 
+SUCCESS
+aggiestack.py admin can_host m2 large 
+SUCCESS
+aggiestack.py admin can_host m2 large 
+aggiestack.py admin can_host m2 large 
+SUCCESS
+aggiestack.py admin can_host m2 large 
+SUCCESS
+aggiestack.py admin can_host m2 large 
+SUCCESS
+aggiestack.py admin can_host m2 medium 
+SUCCESS
+aggiestack.py admin can_host m2 small 
+SUCCESS
+aggiestack.py admin can_host m1 small 
+SUCCESS
+aggiestack.py admin can_host m1 small 
+aggiestack.py admin can_host m1 small 
+aggiestack.py admin can_host m1 small 
+SUCCESS
+aggiestack.py server create --image linux-ubuntu --flavor large test 
+aggiestack.py server create --image linux-ubuntu --flavor large test2 
+aggiestack.py admin server list 
+FAILURE
+aggiestack.py server list 
+aggiestack.py server list 
+aggiestack.py server list 
+aggiestack.py admin show instances 
+aggiestack.py server delete test 
+aggiestack.py server delete test 
+aggiestack.py server list 
+aggiestack.py server list 
+aggiestack.py server delete test 
+aggiestack.py server create --image linux-ubuntu --flavor large test2 
+aggiestack.py server create --image linux-ubuntu --flavor large test1 
+aggiestack.py server create --image linux-ubuntu --flavor medium test 
+aggiestack.py server list 
+aggiestack.py server delete test 
+aggiestack.py server list 
+aggiestack.py server delete test 
+aggiestack.py server list 
+aggiestack.py server list 
+aggiestack.py server delete test1 
+aggiestack.py server list 
+aggiestack.py server delete test1 
+aggiestack.py server delete test2 
+aggiestack.py server list 
+aggiestack.py server delete test 
+aggiestack.py server delete test 
+aggiestack.py server delete test 
+aggiestack.py admin show hardware 
+aggiestack.py admin show instances 
+aggiestack.py admin show hardware 
+./aggiestack.py config -h examples/hdwr-config.txt 
+SUCCESS
+./aggiestack.py show all 
+Error trying to load configuration file
+./aggiestack.py config -i examples/image-config.txt 
+SUCCESS
+./aggiestack.py show all 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py config -h examples/hdwr-config.txt 
+SUCCESS
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py show hardware 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py show hardware 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py show hardware 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py show hardware 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py show hardware 
+./aggiestack.py config -h examples/hdwr-config.txt 
+SUCCESS
+./aggiestack.py show hardware 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py show hardware 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py show hardware 
+./aggiestack.py config -h examples/hdwr-config.txt 
+SUCCESS
+./aggiestack.py show hardware 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py show hardware 
+./aggiestack.py config -h examples/hdwr-config.txt 
+SUCCESS
+./aggiestack.py show hardware 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py config -h examples/hdwr-config.txt 
+SUCCESS
+./aggiestack.py show hardware 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py show hardware 
+./aggiestack.py config -h examples/hdwr-config.txt 
+SUCCESS
+./aggiestack.py show hardware 
+./aggiestack.py admin evacuate r1 
+./aggiestack.py show hardware 
+./aggiestack.py admin evacuate r2 
+./aggiestack.py show hardware 
+./aggiestack.py admin remove m1 
+./aggiestack.py admin remove m6 
+./aggiestack.py admin add --mem 12 --disk 12 -v 12 -ip 128.0.0.1 -r r1 mytest 
+./aggiestack.py admin add --mem 12 --disk 12 -v 12 -ip 1.1.1.1 -r r1 mytest 
+./aggiestack.py admin add --mem 12 --disk 12 -v 12 --ip 1.1.1.1 -r r1 mytest 
+./aggiestack.py show all 
+./aggiestack.py admin add --mem 12 --disk 12 -v 12 --ip 1.1.1.1 -r r1 mytest 
+./aggiestack.py show all 
+./aggiestack.py show all 
+./aggiestack.py admin evacute r2 
+FAILURE
+./aggiestack.py admin evacuate r2 
+Evacuating rack r2
+SUCCESS
+./aggiestack.py show all 
